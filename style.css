@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.search-box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.search-box input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.popular-destinations {
+    margin-bottom: 30px;
+}
+.destination {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.destination img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.chatbot {
+    margin-top: 30px;
+}
+.chatbot-window {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #f9f9f9;
+}
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.chat-input button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
